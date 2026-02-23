@@ -18,22 +18,25 @@ const [newProduct,setNewProduct] = useState("");
 
 const tableRef = useRef();
 
-const handleChange = (index,field,value) => {
+const handleChange = (index, field, value) => {
 
 const updated = [...products];
+
 updated[index][field] = value;
 
 const g = Number(updated[index].given);
 const s = Number(updated[index].sold);
 const r = Number(updated[index].returned);
 
-if(field==="sold" && g)
-updated[index].returned = s-g;
+// Correct logic
+if(field==="sold" && g>=0)
+updated[index].returned = g - s;
 
-if(field==="returned" && g)
-updated[index].sold = g+r;
+if(field==="returned" && g>=0)
+updated[index].sold = g - r;
 
 setProducts(updated);
+
 };
 
 const addProduct = () => {
