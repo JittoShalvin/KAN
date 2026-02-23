@@ -1,0 +1,32 @@
+const productsList = [
+"American popcorn 500G",
+"Annai Garlic Pickle 200 g",
+"Annai Lime Pickle 200g",
+"Annai Lime Pickle 500g",
+"Annai Mango Pickle 200 g",
+"Annai Mango Pickle 500g",
+"AS Coconut Oil 1 Ltr",
+"AS Coconut Oil 500 ml",
+"AS Groundnut Oil 1ltr",
+"AS Groundnut Oil 500 ml",
+"AS Sesame Oil 1 ltr",
+"AS Sesame Oil 500 ml",
+"Bamboo Rice 500 g",
+"Black Rice 500 g",
+"Coconut Oil 1 ltr",
+"Groundnut Oil 1 ltr",
+"Hair Oil 250 ml",
+"Herbal Soap",
+"Idiyapam Powder 1 kg",
+"Kambu 500 g",
+"Lamp Oil 1 ltr",
+"Nattu Chakarai 1 kg",
+"Palm Jaggery 1 kg",
+"Puttu Podi 1 Kg",
+"Rock Salt Crystal 1 kg",
+"Sesame Oil 1 ltr",
+"Thinai 500 g",
+"Varagu 500 g"
+];
+
+export default productsList;
